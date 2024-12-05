@@ -1,0 +1,28 @@
+.form-container {
+  
+    display: flex;
+    gap: 16px; /* Space between form fields */
+    flex-wrap: wrap; /* Wrap fields if screen width is too small */
+    padding-top: 20px;
+    justify-content: center;
+    background-color: #f5f5f5; /* Lighter color for form container */
+    padding: 20px;
+    border-radius: 8px;
+   
+  }
+  
+  .mat-form-field {
+    flex: 1 1 20%; /* Adjust the percentage based on desired width */
+    display: inline;
+    padding-top: 5cm;
+
+  }
+.kalama{
+    justify-content: center;
+  }
+  body {
+    background-color: darkgrey;
+    margin: 0; 
+    padding: 0;
+  }
+  

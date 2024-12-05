@@ -1,0 +1,30 @@
+
+.example-header-image {
+    /* background-image: url('https://photos.google.com/photo/AF1QipOY0EmLxVlQ0S_uUwLpVr-5MeS6l-oguE8j7eIE'); */
+    background-size: cover;
+  }
+  .card-container { 
+    /* background-image: url(/src/assets/IMG-20241018-WA0051.jpg); */
+    background-color: hsl(238, 93%, 49%);      
+    display: flex;
+    flex-direction: row;
+    gap: 20px; /* Adds space between the cards */
+    
+  }
+  
+  .example-card {
+    max-width: 400px;
+    background-color: hsl(245, 87%, 48%);
+    flex: 5; /* This makes the first card take up remaining space */
+  }
+  
+  .large-card {
+    flex: 0 0 50%; 
+
+
+    /* The second card takes up half of the screen */
+  }
+  
+  
+  
+  

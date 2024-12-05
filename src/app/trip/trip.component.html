@@ -1,0 +1,62 @@
+
+  <form [formGroup]="postTripForm">
+    <mat-form-field appearance="fill">   
+    <mat-select formControlName="coachName"  placeholder="Choose Coach">
+      <mat-option value="Tahmeed">Tahmeed</mat-option>
+      <mat-option value="Mash">Mash Poa</mat-option>
+      <mat-option value="BusCar">Bus Car</mat-option>
+      <mat-option value="Simba">Simba Coach</mat-option>
+    </mat-select>
+    </mat-form-field>
+  
+    <mat-form-field appearance="fill">    
+      <mat-select formControlName="station" placeholder="Choose station to aboard Bus">
+        <mat-option value="mombasa">Mombasa</mat-option>
+        <mat-option value="nairobi">Nairobi</mat-option>
+        <mat-option value="malindi">Malindi</mat-option> 
+        <mat-option value="kisumu">Kisumu</mat-option>
+        <mat-option value="lamu">Lamu</mat-option>
+        <mat-option value="zanzibar">Zanzibar</mat-option>    
+      </mat-select>
+     </mat-form-field>
+
+     <mat-form-field appearance="fill">    
+        <mat-select formControlName="departureTime" placeholder="Select Time" >
+          <mat-option value="10.00pm">10.00pm</mat-option>
+          <mat-option value="8.00pm">8.00pm</mat-option>
+          <mat-option value="9.00pm">9.00pm</mat-option>
+          <mat-option value="7.00pm">7.00pm</mat-option>      
+        </mat-select>
+       </mat-form-field>
+
+       <mat-form-field appearance="fill">    
+        <mat-select formControlName="departureDate"  placeholder="Enter date of travel">
+          <mat-option value="today">Today</mat-option>
+          <mat-option value="tomorrow">Tomorrow</mat-option>               
+        </mat-select>
+       </mat-form-field>
+
+       <mat-form-field appearance="fill">    
+        <mat-select formControlName="noOfSeats" placeholder="Enter number of seats to book">
+          <mat-option value="1">1</mat-option>
+          <mat-option value="2">2</mat-option>
+          <mat-option value="3">3</mat-option> 
+          <mat-option value="4">4</mat-option>     
+        </mat-select>
+       </mat-form-field>
+
+       <mat-form-field appearance="fill">    
+        <mat-select formControlName="destination" placeholder="Enter your destination" >
+            <mat-option value="mombasa">Mombasa</mat-option>
+            <mat-option value="nairobi">Nairobi</mat-option>
+            <mat-option value="malindi">Malindi</mat-option> 
+            <mat-option value="kisumu">Kisumu</mat-option>
+            <mat-option value="lamu">Lamu</mat-option>
+            <mat-option value="zanzibar">Zanzibar</mat-option>      
+        </mat-select>
+       </mat-form-field><br>    
+  
+     <button mat-flat-button color="primary" (click)="PostTrip()">
+  <mat-icon>save</mat-icon>postTrip
+     </button>
+  </form>

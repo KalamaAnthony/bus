@@ -1,4 +1,9 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { Router } from '@angular/router';
+import { CoachService } from './coach.service';
+import { response } from 'express';
+
 
 @Component({
   selector: 'app-root',
@@ -6,5 +11,6 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'Bus-Frontend';
+  
+  
 }

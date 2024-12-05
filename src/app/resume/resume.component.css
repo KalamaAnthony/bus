@@ -1,0 +1,15 @@
+.resume {
+    width: 100%; 
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #f5f5f5;
+    /* padding: 20px;  */
+    
+}
+.resume-page{
+    padding-right: 40px;
+    background-color: #f5f5f5;
+}
+.page{
+    background-color: #f5f5f5;
+}

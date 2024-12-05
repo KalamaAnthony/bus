@@ -1,0 +1,26 @@
+<form [formGroup]="sendmessage" >
+  <div class="form-container">    
+    
+    <div class="row">
+      <mat-form-field appearance="fill">
+        <input matInput placeholder="First Name" />
+      </mat-form-field>
+
+      <mat-form-field appearance="fill">
+        <input matInput placeholder="Last Name" formControlName="lastName" />
+      </mat-form-field>
+    </div>
+        <div class="row">
+      <mat-form-field appearance="fill">
+        <input matInput placeholder="Phone Number" formControlName="phoneNumber" />
+      </mat-form-field>
+
+      <mat-form-field appearance="fill">
+        <input matInput placeholder="example@gmail.com" formControlName="email" />
+      </mat-form-field>
+    </div>
+        <button mat-flat-button color="primary" (ngSubmit)="onSubmit()">
+      <mat-icon>send</mat-icon> Send Message 
+    </button>
+  </div>
+</form>

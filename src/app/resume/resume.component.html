@@ -1,0 +1,115 @@
+<div class="page">
+<div class="resume-page">
+<div class="resume">
+  <mat-accordion>
+    <mat-expansion-panel hideToggle>
+      <mat-expansion-panel-header>       
+        <mat-panel-description> WORK EXPERIENCE {{panelOpenState() ? '' : ''}}</mat-panel-description>
+      </mat-expansion-panel-header>
+      <p><b>E&M TECH HOUSE</b><br>
+        Software Development
+        2022 - 2023 <br>
+        <p>>Designing and developing robust and secure systems to manage all activities within a
+        business under one platform such as the Enterprise Resource Planning system.
+        Developed various modules to handle different business activities such as Human
+        Resource, Finance, Case management, Procurement, all in one solution.
+        Deploying systems to the server and managing databases.
+        Practiced as a Quality Assurance officer to ensure seamless communication between
+        system developers (Backend and Frontend developers).
+      </p><br>
+
+        <p><b>EQUITY BANK</b></p> <br>
+        Digital Banking <br>
+        <p>>On boarded over 10,000 banking customer on digital channels such as the APP, USSD and on STK to
+        enable transactions through mobile and educating them on how to use the channels.
+        Served as a customer service champion at Malindi Equity branch for 6 months to attend to customer
+        request timely and precisely.</p> <br>        
+        
+        Data Entry Clerk
+        <p>>Feed over 1200 students’ data into the DMIS to maintain records of students and their particulars to
+        follow up on their performance.</p> <br>
+        
+        <p><b>INDIPENDENT ELECTRAL AND BOUNDARIES COMMISSION 2021-2022</b></p> <br>
+        Clerk <br>
+        <p>>Registered over 3000 new voters in Malindi and Magarini in Kilifi County for both phase 1
+        and 2 in the past general elections 2022 in a span of 2 months. <br>
+        Participated in selection process for the wings to fly beneficiaries in 2022 and 2023 to help make
+        decisions for over 2000 students who had applied for scholarship based on eligibility criteria
+        Registered over 3000 new voters in Malindi and Magarini in Kilifi County for both phase 1
+        and 2 in the past general elections 2022 in a span of 2 months.</p> <br>
+
+        <p><b>KENYA NATIONAL BUREAU OF STATISTICS</b></p>
+        Enumerator <br>
+        <p>>Conducting census in Malindi and Magarini constituencies in Kilifi County by
+        counting, recording and transferring data into the KNBS servers for 45 villages with
+        a population of approximately 10,000 people.
+      </p>
+    </mat-expansion-panel>
+    <mat-expansion-panel (opened)="panelOpenState.set(true)" (closed)="panelOpenState.set(false)">
+      <mat-expansion-panel-header>
+        <mat-panel-description>
+          EDUCATION {{panelOpenState() ? '' : ''}}
+        </mat-panel-description>
+      </mat-expansion-panel-header>
+      <p><b>EDUCATION</b> <br>
+        <b>IBM SKILLBUILD AUG 2024 </b> <br>
+        -Artificial Intelligence <br>
+        <b>POWER LEARN PROJECT ACADEMY JUN 2024</b> <br>
+        -Certificate in Web Development and Python <br>
+        -Certificate in Database Management <br>
+
+        <b>UNIVERSITY OF NAIROBI DEC 2023</b> <br>
+        -Bachelor of Economics <br>
+        <b>MOMBASA TECHNICAL TRAINING JUN 2017</b> <br>
+        -International Computer Driving License <br>
+        <b>LENANA SCHOOL 2016</b> </p>
+    </mat-expansion-panel>
+    <mat-expansion-panel (opened)="panelOpenState.set(true)" (closed)="panelOpenState.set(false)">
+        <mat-expansion-panel-header>
+          <mat-panel-description>
+            SKILLS {{panelOpenState() ? '' : ''}}
+          </mat-panel-description>
+        </mat-expansion-panel-header>
+        <p><b>SKILLS</b> <br>
+          <b>Programming Languages:</b> <br>
+          Proficient in Java and springboot, Python with Django, C#,
+          Angular with typescript and
+          JavaScript. <br>
+          <b>Artifiacial Learning :</b> <br>
+          Practing AI
+          application including prompting
+          with IBM Skillbuild . <br>
+          <b>Data Analytics :</b><br>
+          Profficient in
+          data analysis using tools such as
+          SSPS to analyze data and predict
+          the future which aids in decision
+          making. Skillful in using EXCEL
+          to record and analyze data. <br>
+          <b>Web Development:</b><br>
+          Profficient
+          in backend development with
+          both java and python using
+          spring-boot and Django
+          frameworks. Skillful in frontend
+          development using Angular with
+          typescript to create robust,
+          responsive and user friendly
+          systems and websites as required
+          by differet users.
+          </p>
+      </mat-expansion-panel>
+      <mat-expansion-panel (opened)="panelOpenState.set(true)" (closed)="panelOpenState.set(false)">
+        <mat-expansion-panel-header>
+          <mat-panel-description>
+            LEADERSHIP&CO-CIRRICULARS {{panelOpenState() ? '' : ''}}
+          </mat-panel-description>
+        </mat-expansion-panel-header>
+        <p><b> MENTOR</b></p><br>
+        <p>Mentoring and guiding scholars in the academic journey and social well-being
+          including personal branding and giving back activities.</p>
+      </mat-expansion-panel>
+  </mat-accordion>
+</div>
+</div>
+</div>

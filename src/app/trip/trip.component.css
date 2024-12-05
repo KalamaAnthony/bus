@@ -1,0 +1,27 @@
+form{
+    width: 65%;
+    margin-left: 20%;
+    margin-top: 20px;
+  }
+  mat-form-field{
+    width: 100%;
+    
+  }
+  mat-toolbar{
+    display: flex;
+  }
+  .nav-menu{
+    display: flex;
+  }
+  ul{
+    display: flex;
+    margin-left: 85%;
+  
+  }
+  li{
+    margin: 30px;
+    list-style-type: none;  
+  }
+  a{
+    text-decoration: none;
+  }

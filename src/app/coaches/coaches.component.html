@@ -1,0 +1,31 @@
+
+  <form [formGroup]="postCoachForm">
+    <mat-form-field appearance="fill">   
+    <mat-select formControlName="coachName"  placeholder="Choose Coach">
+      <mat-option value="Tahmeed">Tahmeed</mat-option>
+      <mat-option value="Mash">Mash Poa</mat-option>
+      <mat-option value="BusCar">Bus Car</mat-option>
+      <mat-option value="Simba">Simba Coach</mat-option>
+    </mat-select>
+    </mat-form-field>
+  
+    <mat-form-field appearance="fill">    
+      <mat-select formControlName="seatsAvailable" placeholder="Enter number of seats">
+        <mat-option value="1">1</mat-option>
+        <mat-option value="2">2</mat-option>
+        <mat-option value="3">3</mat-option>     
+      </mat-select>
+     </mat-form-field>
+  
+     <mat-form-field appearance="fill">   
+      <mat-select formControlName="price" placeholder="Enter price" >
+        <mat-option value="1900">1900</mat-option>
+        <mat-option value="2300">2300</mat-option>
+       
+      </mat-select>
+     </mat-form-field><br>
+  
+     <button mat-flat-button color="primary" (click)="PostCoach()">
+  <mat-icon>save</mat-icon>PostCoach
+     </button>
+  </form>
